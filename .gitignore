@@ -1,0 +1,10 @@
+*.o
+*.dSYM
+*.exe
+*~
+*.diff
+.*.swp
+.*.swo
+.vimrc
+html/
+tmp

@@ -1,0 +1,39 @@
+.led-green {
+    /*margin: 20px auto;*/
+    color: #058e0e;
+    font-weight: 400;
+    text-shadow: 0px 0px 1px #69e071;
+}
+
+.led-red {
+    /*margin: 20px auto;*/
+    color: #ce1100;
+    font-weight: 400;
+    text-shadow: 0px 0px 1px #e06969;
+}
+
+.title {
+  font-size: 16px;
+  font-weight: 900;
+  margin: 5px 0 5px 0;
+}
+
+.parameter {
+	/*width: 150px;*/
+}
+
+.value {
+  color: #444;
+}
+
+.text-center {
+  text-align: center; 
+}
+
+.text-left {
+  text-align: left; 
+}
+
+.text-right {
+  text-align: right; 
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>GPS station - Settings</title>
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="skeleton.css">
+  <link rel="stylesheet" href="custom.css">
+  <!-- JavaScript
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</head>
+<body>
+
+  <div class="container">
+    <div class="row" style="margin: 15px 0 0 0;">
+
+    </div>
+    <div class="row">
+      <h1>GPS station - Settings</h1>
+    </div>
+
+    <div class="row">
+      <div class="six columns">
+        <h4>Communication settings</h4>
+        <form method="GET" action="output.cgi">
+          <label for="module_id">Module ID</label>
+          <input class="u-full-width" placeholder="42" id="exampleEmailInput" name="text">
+          <label for="exampleRecipientInput">Package sending interval</label>
+          <select class="u-full-width" id="exampleRecipientInput">
+            <option value="1">1</option>
+            <option value="3">3</option>
+            <option value="5">5</option>
+          </select>
+          <label class="example-send-yourself-copy">
+            Channel choice<br>
+            <input type="checkbox">
+            <span class="label-body">Use GPRS instead of Wi-Fi for data transfer</span>
+          </label>
+          <input class="button-primary" value="Save" type="submit">
+        </form>
+      </div>
+
+      <!-- Right column --!>
+      <div class="three columns">
+        <h4>Status:</h4>
+        <div class="Row">
+          <span class="title">General</span>
+        </div>
+        <div class="row">
+          <div class="text-left u-pull-left">GPS:</div>
+          <div class="parameter led-green text-left u-pull-right">Online</div>
+        </div>
+        <!-- --!>
+        <div class="Row">
+          <span class="title">Network</span>
+        </div>
+        <div class="row">
+          <div class="text-left u-pull-left">Status:</div>
+          <div class="parameter led-red text-left u-pull-right">Offline</div>
+          <div class="u-cf"></div>
+          <div class="text-left u-pull-left">IP:</div>
+          <div class="parameter value text-left u-pull-right">192.168.1.10</div>
+          <div class="u-cf"></div>
+          <div class="text-left u-pull-left">Connected to:</div>
+          <div class="parameter value text-left u-pull-right">eduroam</div>
+          <div class="u-cf"></div>
+          <div class="text-left u-pull-left">Signal Strength:</div>
+          <div class="parameter value text-left u-pull-right">slider</div>
+          <div class="u-cf"></div>
+        </div>
+        <!-- --!>
+      </div>
+    </div>
+
+  </div>
+
+
+<div id="devconf" style="display: none;">
+  <!--#devconf-->
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
