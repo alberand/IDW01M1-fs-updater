@@ -18,23 +18,27 @@ connect IDW01M1 directly to a serial <-> USB adapter.
    (windows))
 4. Press reset button on your board. After that you should see some initial 
    messages of the Nucleo application.
-    ```
-    ==========================================================
-    Communication with the Wi-Fi board
-    ==========================================================
-    Enter passthrogh mode:
-    ```
+
+```
+==========================================================
+Communication with the Wi-Fi board
+==========================================================
+Enter passthrogh mode:
+```
+
 5. Now we should test that communication is working correctly. If you type `AT`
    command you should get `OK` response.
-    ```
-    ==========================================================
-    Communication with the Wi-Fi board
-    ==========================================================
-    Enter passthrogh mode:
-    AT
 
-    OK
-    ```
+```
+==========================================================
+Communication with the Wi-Fi board
+==========================================================
+Enter passthrogh mode:
+AT
+
+OK
+```
+
    This command do nothing but let us know that communication is working. Now
    you can close the serial monitor.
 6. Next, we need to configure Python script.
@@ -43,7 +47,6 @@ connect IDW01M1 directly to a serial <-> USB adapter.
 
 ### Links
 
-* [IDW01M1 Wi-Fi expansion
-  board](http://www.st.com/content/st_com/en/products/ecosystems/stm32-open-development-environment/stm32-nucleo-expansion-boards/stm32-ode-connect-hw/x-nucleo-idw01m1.html)
+* [IDW01M1 Wi-Fi expansion board](http://www.st.com/content/st_com/en/products/ecosystems/stm32-open-development-environment/stm32-nucleo-expansion-boards/stm32-ode-connect-hw/x-nucleo-idw01m1.html)
 * [STM32 Nucleo L476RG](http://www.st.com/en/evaluation-tools/nucleo-l476rg.html)
 * [PlatformIO](http://platformio.org/)
